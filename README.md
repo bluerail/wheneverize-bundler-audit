@@ -2,6 +2,12 @@
 
 A gem that adds a daily cron (using [whenever](https://github.com/javan/whenever)) to update and run [bundler-audit](https://github.com/rubysec/bundler-audit). When found, it'll raise a Wheneverize::Bundler::Audit::VulnerableError to be handled by something like [airbrake](https://github.com/airbrake/airbrake).
 
+## Usage
+
+Include it in your Gemfile. It'll be installed when you use [whenever](https://github.com/javan/whenever). Review the command used by running:
+
+    $ whenever
+
 ## Contributing
 
 Bug reports and pull requests are welcome on GitHub at https://github.com/bluerail/wheneverize-bundler-audit. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
